@@ -1,0 +1,528 @@
+[0] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Walk"] = "walk_knife",
+								["UniqueID"] = "3086026462",
+								["Jump"] = "jump_knife",
+								["AttackStandPrimaryfire"] = "range_knife",
+								["Run"] = "run_knife",
+								["ClassName"] = "holdtype",
+								["CrouchIdle"] = "cidle_knife",
+								["StandIdle"] = "idle_all_angry",
+								["CrouchWalk"] = "cwalk_knife",
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Position"] = Vector(-33.64599609375, -34.623046875, -30.345703125),
+										["UniqueID"] = "377414286",
+										["Fullbright"] = true,
+										["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508302438688882714/weapon.png",
+										["Size"] = 60,
+										["Angles"] = Angle(-11.001312255859, 105.26393127441, 179.53749084473),
+										["ClassName"] = "model",
+										["Bone"] = "right hand",
+										["Model"] = "https://www.dropbox.com/s/0r4zaiigmisor01/Batonyagura_.obj?dl=0",
+										["EditorExpand"] = true,
+									},
+								},
+							},
+							["self"] = {
+								["EditorExpand"] = true,
+								["Invert"] = true,
+								["Event"] = "weapon_class",
+								["UniqueID"] = "4113064317",
+								["Operator"] = "equal",
+								["Arguments"] = "weapon_dmc4yamato@@1",
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "group",
+						["UniqueID"] = "3476806101",
+						["Name"] = "Baton",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Event"] = "weapon_class",
+										["UniqueID"] = "2865042833",
+										["Operator"] = "equal",
+										["ClassName"] = "event",
+										["Arguments"] = "weapon_dmc4yamato@@1",
+									},
+								},
+							},
+							["self"] = {
+								["Position"] = Vector(-57.46923828125, 4.234375, 8.51171875),
+								["UniqueID"] = "1146624180",
+								["Fullbright"] = true,
+								["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508302438688882714/weapon.png",
+								["Size"] = 60,
+								["Angles"] = Angle(-75.58895111084, 50.423416137695, -139.50520324707),
+								["ClassName"] = "model",
+								["Bone"] = "spine 2",
+								["Model"] = "https://www.dropbox.com/s/g7zicajn7vsspse/Baton_Accroche_yagura.obj?dl=0",
+								["EditorExpand"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "group",
+						["UniqueID"] = "2739634742",
+						["Name"] = "Baton",
+					},
+				},
+				[3] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Velocity"] = 1000,
+										["UniqueID"] = "912414571",
+										["EndSize"] = 1.5,
+										["Material"] = "sprites/glow04_noz",
+										["Bone"] = "spine",
+										["NumberParticles"] = 10,
+										["AirResistance"] = 0,
+										["StartSize"] = 30,
+										["Position"] = Vector(-12.46337890625, 54.171875, 11.63671875),
+										["Gravity"] = Vector(0, 0, 0),
+										["Lighting"] = false,
+										["PositionSpread"] = 3.7000000476837,
+										["FireDelay"] = 0,
+										["Color1"] = Vector(127, 159, 255),
+										["Bounce"] = 0,
+										["EditorExpand"] = true,
+										["Additive"] = true,
+										["Color2"] = Vector(127, 159, 255),
+										["Angles"] = Angle(-2.9350712299347, 56.031482696533, 4.5204510688782),
+										["ClassName"] = "particles",
+										["DieTime"] = 0.11999999731779,
+										["EndAlpha"] = 255,
+									},
+								},
+							},
+							["self"] = {
+								["EditorExpand"] = true,
+								["Invert"] = true,
+								["UniqueID"] = "1821517886",
+								["Event"] = "say",
+								["Arguments"] = "chakra lame@@3600",
+								["ClassName"] = "event",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["EditorExpand"] = true,
+								["ClassName"] = "command",
+								["UniqueID"] = "425157178",
+								["String"] = "say /advertUn Chakra étrange est influé dans la lame.",
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "group",
+						["UniqueID"] = "1817278162",
+						["Name"] = "advert",
+					},
+				},
+				[4] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Event"] = "weapon_class",
+										["Invert"] = true,
+										["UniqueID"] = "3935426302",
+										["Operator"] = "equal",
+										["Arguments"] = "weapon_dmc4yamato@@1",
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["Position"] = Vector(-58.470703125, -1.6865234375, 0.2333984375),
+								["UniqueID"] = "4014685696",
+								["Fullbright"] = true,
+								["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508302452542668800/main.png",
+								["Size"] = 60,
+								["Angles"] = Angle(-86.877014160156, 90.101196289063, -175.49598693848),
+								["ClassName"] = "model",
+								["Bone"] = "spine 2",
+								["Model"] = "https://www.dropbox.com/s/urrsi6w86e8h6z7/Sangle_3yagura.obj?dl=0",
+								["EditorExpand"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "group",
+						["UniqueID"] = "2386517658",
+						["Name"] = "Baton",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "group",
+				["UniqueID"] = "266591905",
+				["Name"] = "Baton",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "1749909516",
+		["Name"] = "Baton",
+	},
+},
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(44.013671875, 0.7734375, 7.4557495117188),
+				["UniqueID"] = "165457877",
+				["ClassName"] = "model",
+				["Size"] = 60,
+				["Angles"] = Angle(78.239028930664, 65.918441772461, -27.919235229492),
+				["Fullbright"] = true,
+				["Bone"] = "right thigh",
+				["Model"] = "https://www.dropbox.com/s/oup7b5v3q6yqy2w/Jambe_Droiteyagura_.obj?dl=0",
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508302452542668800/main.png",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(-58.470703125, -1.6865234375, 0.2333984375),
+				["UniqueID"] = "865012572",
+				["ClassName"] = "model",
+				["Size"] = 60,
+				["Angles"] = Angle(-86.877014160156, 90.101196289063, -175.49598693848),
+				["Fullbright"] = true,
+				["Bone"] = "spine 2",
+				["Model"] = "https://www.dropbox.com/s/aooc0nd2wig8ddh/Echarpe_yagura.obj?dl=0",
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508302452542668800/main.png",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(-0.02490234375, -47.2607421875, -1.4892578125),
+				["UniqueID"] = "3519589207",
+				["ClassName"] = "model",
+				["Size"] = 60,
+				["Angles"] = Angle(-2.5598254203796, 1.3438302026714e-08, 2.0671902234426e-07),
+				["Fullbright"] = true,
+				["Bone"] = "pelvis",
+				["Model"] = "https://www.dropbox.com/s/udg7dyzgz47o5zv/Plevisyagura_.obj?dl=0",
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508302452542668800/main.png",
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "3893459383",
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508310853456494614/main.png",
+				["Position"] = Vector(14.5244140625, 3.716796875, 1.55078125),
+				["ClassName"] = "model",
+				["Size"] = 0.32499998807907,
+				["Bone"] = "left calf",
+				["Model"] = "models/pac/default.mdl",
+				["Fullbright"] = true,
+			},
+		},
+		[5] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(-58.470703125, -1.6865234375, 0.2333984375),
+				["UniqueID"] = "268958149",
+				["ClassName"] = "model",
+				["Size"] = 60,
+				["Angles"] = Angle(-86.877014160156, 90.101196289063, -175.49598693848),
+				["Fullbright"] = true,
+				["Bone"] = "spine 2",
+				["Model"] = "https://www.dropbox.com/s/b48tkzsm0h84ndm/Sangle_2yagura.obj?dl=0",
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508302452542668800/main.png",
+			},
+		},
+		[6] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(-2.140625, -42.0947265625, 2.9443359375),
+				["UniqueID"] = "4135337865",
+				["Fullbright"] = true,
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508302452542668800/main.png",
+				["Size"] = 60,
+				["Angles"] = Angle(-86.877014160156, 90.101196289063, -91.142501831055),
+				["ClassName"] = "model",
+				["Bone"] = "spine 2",
+				["Model"] = "https://www.dropbox.com/s/hijo4e7ynqelstv/Rubayaguran_.obj?dl=0",
+				["EditorExpand"] = true,
+			},
+		},
+		[7] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "345459656",
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508351333233983497/main.png",
+				["Position"] = Vector(19.86962890625, 0.9501953125, -1.7802734375),
+				["ClassName"] = "model",
+				["Size"] = 0.52499997615814,
+				["Bone"] = "right thigh",
+				["Model"] = "models/pac/default.mdl",
+				["Fullbright"] = true,
+			},
+		},
+		[8] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "1304627517",
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508313582551957515/main.png",
+				["Position"] = Vector(-2.72802734375, -0.0224609375, -2.2587890625),
+				["ClassName"] = "model",
+				["Size"] = 0.55000001192093,
+				["Bone"] = "left upperarm",
+				["Model"] = "models/pac/default.mdl",
+				["Fullbright"] = true,
+			},
+		},
+		[9] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "3251952827",
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508302431000723456/eyes.png",
+				["Position"] = Vector(-72.484375, -10.80859375, -0.02490234375),
+				["ClassName"] = "model",
+				["Size"] = 60,
+				["Fullbright"] = true,
+				["Model"] = "https://www.dropbox.com/s/skua4v6hhlj1iiw/Yeux_yagura.obj?dl=0",
+				["Angles"] = Angle(86.387825012207, -81.456092834473, -0.00015202959184535),
+			},
+		},
+		[10] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(21.5927734375, -6.8603515625, 9.8583984375),
+				["UniqueID"] = "2548932938",
+				["ClassName"] = "model",
+				["Size"] = 60,
+				["Angles"] = Angle(-62.841793060303, -120.27423858643, -155.81350708008),
+				["Fullbright"] = true,
+				["Bone"] = "right calf",
+				["Model"] = "https://www.dropbox.com/s/kxohekkbo0831rw/Genou_Gauche_yagura.obj?dl=0",
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508302452542668800/main.png",
+			},
+		},
+		[11] = {
+			["children"] = {
+			},
+			["self"] = {
+				["BoneMerge"] = true,
+				["UniqueID"] = "1782820812",
+				["Scale"] = Vector(1.2999999523163, 1, 1),
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508304422246285330/main_-_Copie.png",
+				["Size"] = 1.0499999523163,
+				["EditorExpand"] = true,
+				["Fullbright"] = true,
+				["Model"] = "models/pac/male/base_male_arm_l.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[12] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(-58.470703125, -1.6865234375, 0.2333984375),
+				["UniqueID"] = "1296459711",
+				["ClassName"] = "model",
+				["Size"] = 60,
+				["Angles"] = Angle(-86.877014160156, 90.101196289063, -175.49598693848),
+				["Fullbright"] = true,
+				["Bone"] = "spine 2",
+				["Model"] = "https://www.dropbox.com/s/ltf71urv0dc7pqt/Bus987yagurate_.obj?dl=0",
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508302452542668800/main.png",
+			},
+		},
+		[13] = {
+			["children"] = {
+			},
+			["self"] = {
+				["BoneMerge"] = true,
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508304422246285330/main_-_Copie.png",
+				["Size"] = 1.0499999523163,
+				["UniqueID"] = "16914005",
+				["ClassName"] = "model",
+				["Fullbright"] = true,
+				["Model"] = "models/pac/male/base_male_arm_r.mdl",
+				["Scale"] = Vector(1.2999999523163, 1, 1),
+			},
+		},
+		[14] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(-3.994140625, 7.296875, -9.69091796875),
+				["UniqueID"] = "438737432",
+				["ClassName"] = "model",
+				["Size"] = 60,
+				["Angles"] = Angle(-65.74730682373, -22.26929473877, 170.27998352051),
+				["Fullbright"] = true,
+				["Bone"] = "left foot",
+				["Model"] = "https://www.dropbox.com/s/452uvel5069ecpw/Pied_Droiyagurat.obj?dl=0",
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508302452542668800/main.png",
+			},
+		},
+		[15] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "3730052952",
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508351333233983497/main.png",
+				["Position"] = Vector(-5.59765625, -9.236328125, -0.6201171875),
+				["ClassName"] = "model",
+				["Size"] = 0.5,
+				["Bone"] = "pelvis",
+				["Model"] = "models/pac/default.mdl",
+				["Fullbright"] = true,
+			},
+		},
+		[16] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "entity",
+				["HideEntity"] = true,
+				["UniqueID"] = "1040041102",
+			},
+		},
+		[17] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(20.47509765625, 3.7099609375, 14.08056640625),
+				["UniqueID"] = "570493734",
+				["ClassName"] = "model",
+				["Size"] = 60,
+				["Angles"] = Angle(78.929122924805, 10.415733337402, -80.402626037598),
+				["Fullbright"] = true,
+				["Bone"] = "left calf",
+				["Model"] = "https://www.dropbox.com/s/37xtwcf9movpef6/Genou_Droit_yagura.obj?dl=0",
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508302452542668800/main.png",
+			},
+		},
+		[18] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "2680699621",
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508302452542668800/main.png",
+				["Position"] = Vector(-72.484375, -10.80859375, -0.02490234375),
+				["ClassName"] = "model",
+				["Size"] = 60,
+				["Fullbright"] = true,
+				["Model"] = "https://www.dropbox.com/s/mmok24dskcromra/Tete_yagura.obj?dl=0",
+				["Angles"] = Angle(86.387825012207, -81.456092834473, -0.00015202959184535),
+			},
+		},
+		[19] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(39.49853515625, 20.01171875, 4.388671875),
+				["UniqueID"] = "1382987607",
+				["ClassName"] = "model",
+				["Size"] = 60,
+				["Angles"] = Angle(17.70637512207, -68.94994354248, -178.3766784668),
+				["Fullbright"] = true,
+				["Bone"] = "left thigh",
+				["Model"] = "https://www.dropbox.com/s/oup7b5v3q6yqy2w/Jambe_Droiteyagura_.obj?dl=0",
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508302452542668800/main.png",
+			},
+		},
+		[20] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "3410054621",
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508351333233983497/main.png",
+				["Position"] = Vector(18.443359375, 3.791015625, 1.2451171875),
+				["ClassName"] = "model",
+				["Size"] = 0.52499997615814,
+				["Bone"] = "left thigh",
+				["Model"] = "models/pac/default.mdl",
+				["Fullbright"] = true,
+			},
+		},
+		[21] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(4.298828125, 0.513671875, 10.7109375),
+				["UniqueID"] = "115111105",
+				["ClassName"] = "model",
+				["Size"] = 60,
+				["Angles"] = Angle(-76.112152099609, -85.62442779541, -129.99620056152),
+				["Fullbright"] = true,
+				["Bone"] = "right foot",
+				["Model"] = "https://www.dropbox.com/s/2x0jxo0kdvansvj/Pied_Gauchyagurae.obj?dl=0",
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508302452542668800/main.png",
+			},
+		},
+		[22] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "2713706475",
+				["Material"] = "https://cdn.discordapp.com/attachments/494169786796867602/508351333233983497/main.png",
+				["Position"] = Vector(5.75, -9.236328125, -0.5146484375),
+				["ClassName"] = "model",
+				["Size"] = 0.5,
+				["Bone"] = "pelvis",
+				["Model"] = "models/pac/default.mdl",
+				["Fullbright"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "939271401",
+		["Name"] = "Tenue Yaguya",
+	},
+},
